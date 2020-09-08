@@ -1,0 +1,42 @@
+/* navbar styling and static at top */
+nav.navbar.navbar-expand-lg.navbar-light.bg-light{
+	font-family: 'Roboto', sans-serif;
+	background-color:#7c52f2!important;
+	-webkit-box-shadow: 0px 4px 10px 2px rgba(8,78,174,0.75);
+	-moz-box-shadow: 0px 4px 10px 2px rgba(8,78,174,0.75);
+	box-shadow: 0px 4px 10px 2px rgba(8,78,174,0.75);
+	 position: fixed; /* Set the navbar to fixed position */
+  	top: 0; /* Position the navbar at the top of the page */
+  	width: 100%; /* Full width */
+	height:7vh;
+	z-index:999;
+	margin-bottom:20px;
+}
+div#navbarNav.collapse.navbar-collapse{
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+	margin-right:auto;
+}
+/* ------------------ */
+
+/* nav links */
+a.nav-link{
+	font-weight:400;
+	font-size:20px;
+	color:white !important;
+	text-shadow:2px 1px #000;
+	margin:auto;
+}
+a.nav-link:hover{
+	color:#3BEF15 !important;	
+}
+/* ------------------ */
+
+a.navbar-brand{
+	font-weight:700;
+	font-size:28px;
+	color:#fff!important;
+	text-shadow:2px 1px #000;
+	
+}

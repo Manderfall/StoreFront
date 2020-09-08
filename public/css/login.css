@@ -1,0 +1,59 @@
+/* general */
+html,body{
+	height:100%;
+	overflow:hidden;
+	background: #56CCF2;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
+	background-repeat:no-repeat;
+}
+/* ------------------ */
+
+/* log form */
+div.container.login{
+    display: block;
+    text-align:center;
+	margin-top:30vh;
+}
+form{	
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+span.input-group-text{
+	display:flex;
+	justify-content:center;
+	align-content:center
+}
+span.pass{
+	padding-right:17px;
+
+}
+
+input.form-control{
+	max-width:350px;
+}
+h5.member{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+h3.move{
+	margin-bottom:15px;
+}
+div.input-group{
+	margin-bottom:15px;
+}
+/* ------------------ */
+div.logout{
+	margin-top:20vh;;
+}
+
+
+div.construction{
+	margin-top:20vh;
+	color:white;
+	display:flex;
+	justify-content:center;
+	align-self:center;
+}

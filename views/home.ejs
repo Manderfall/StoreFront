@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>StoreFront</title>
+	<link rel="stylesheet" href="/css/navbar.css">
+	<link rel="stylesheet" href="/css/home.css"> <!-- Page Specific -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 		crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+
+<body>
+	<%- include("partials/Navbar") %>
+	
+		<div class="home-banner">
+			<h1 class="banner-title">ShopHub!</h1>
+				<div class="slideshow-container">
+  					<div class="mySlides fade">    
+    					<img src="https://images.unsplash.com/photo-1575486684334-589b53ea4c80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" style="width:100%">    
+  					</div>
+
+ 					 <div class="mySlides fade">    
+    					<img src="https://images.unsplash.com/photo-1563357732-31978202a214?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" style="width:100%">    
+  					</div>
+
+  					<div class="mySlides fade">    
+    					<img src="https://images.unsplash.com/photo-1536408803730-06d570c65a79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" style="width:100%">    
+  					</div>
+
+				</div>		
+			
+			<h3 class="banner-text">Are you ready for bargins of a lifetime!?!</h3>
+		
+			<a class="shop-button" href="/shop" >Shop  <i class="fas fa-shopping-basket"></i></a>	
+			
+		</div>	
+		
+    <script src="js/slideshow.js"></script>
+<%- include("partials/footer") %>

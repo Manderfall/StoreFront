@@ -1,0 +1,114 @@
+/* general */
+body,html{
+	height:100%;
+	overflow:hidden;
+	background: #56CCF2;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
+	background-repeat:no-repeat;
+}
+/* ------------------ */
+
+/* banner */
+div.home-banner{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	margin-top:10vh;
+}
+h1.banner-title{
+	font-size:76px;
+	font-family: 'Nunito', sans-serif;
+	text-shadow:1px  1px black;
+}
+
+h3.banner-text{
+	font-size:36px;
+	font-family: 'Nunito', sans-serif;
+	margin-bottom:35px;
+	text-shadow:0px 1px black;
+}
+/* ------------------ */
+
+/* shop button */
+.shop-button{
+	outline:none;
+	border:none;	
+	display:block;
+	position:relative;
+	background-color:#7c52f2;
+	font-size: 20px;
+	font-weight:400;
+	font-family: 'Roboto', sans-serif;
+	color:white;
+	text-shadow:2px 1px #000;
+	letter-spacing:2px;
+	padding:20px 70px;
+	margin:0 auto;
+	border-radius:20px;
+	box-shadow:0 4px rgba(8,78,174,0.75);
+}
+.shop-button:hover{
+	box-shadow:0 2px rgba(8,78,174,0.75);
+	top:2px;
+	outline:none;
+	text-decoration:none;
+	color:#fff;
+	text-shadow:1px 1px #000;
+ }
+.shop-button:active{
+	box-shadow:none;
+	top:6px;
+	outline:none;
+	text-shadow:0px 1px #000;	
+}
+/* ------------------ */
+
+/* slideshow */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;	
+}
+img{
+	border-radius: 20px;
+	height:40vh;
+	width:70vw;
+
+}
+div.slideshow-container{
+	margin-top:25px;
+	margin-bottom:60px;
+}
+
+/* hides images */
+.mySlides {
+  display: none;
+}
+/* ------------------ */
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.95s;
+  animation-name: fade;
+  animation-duration: 5.25s;
+}
+
+@-webkit-keyframes fade {
+	    0% { opacity: 0.0;}
+    
+    50% { opacity: 1;}
+	
+	100% { opacity: 0.0;}
+}
+
+@keyframes fade {
+	    0% { opacity: 0.0;}
+    
+    50% { opacity: 1;}
+	
+	100% { opacity: 0.0;}
+}
+/* ------------------ */
