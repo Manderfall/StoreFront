@@ -49,7 +49,7 @@ app.use((req, res, next) => {
 });
 
 // Globals ------------------------------------------------------
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // Routes ------------------------------------------
 const indexRoutes = require("./routes/index");
