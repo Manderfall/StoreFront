@@ -2,8 +2,8 @@
 const express = require ("express");
 const bodyParser = require("body-parser");
 const mongoose = require ("mongoose");
-const passport = require ("passport");
 const methodOverride = require ("method-override");
+const passport = require ("passport");
 const localStrategy = require ("passport-local");
 const passportLocalMongoose = require ("passport-local-mongoose");
 
