@@ -1,10 +1,10 @@
 const express = require("express");
 const router = express.Router();
 const Item = require("../models/item");
-const middleware = require("../middleware")
+// const middleware = require("../middleware")
 
 /* items */
-router.get("/shop",middleware.isLoggedIn,function (req,res){
+router.get("/shop",/*middleware.isLoggedIn*/function (req,res){
 	Item.find({}, function(err, allitems){
 		if(err){
 			console.log(err);
@@ -15,3 +15,5 @@ router.get("/shop",middleware.isLoggedIn,function (req,res){
 });
 
 module.exports = router;
+
+/* The middleware is removed here due to passport/heroku */
