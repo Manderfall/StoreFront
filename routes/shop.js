@@ -4,7 +4,7 @@ const Item = require("../models/item");
 // const middleware = require("../middleware")
 
 /* items */
-router.get("/shop",/*middleware.isLoggedIn*/function (req,res){
+router.get("/shop",function (req,res){
 	Item.find({}, function(err, allitems){
 		if(err){
 			console.log(err);
