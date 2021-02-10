@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const Item = require("../models/item");
-// const middleware = require("../middleware")
+const middleware = require("../middleware")
 
 /* items */
 router.get("/shop",function (req,res){
